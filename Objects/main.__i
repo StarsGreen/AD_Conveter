@@ -1,0 +1,9 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork 
+-I D:\MDK\program\AD_Conveter\RTE
+-I D:\MDK\program\AD_Conveter\RTE\Device\STM32F103RC
+-I D:\MDK\install\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\MDK\install\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-I D:\MDK\install\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I D:\MDK\install\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc
+-D_RTE_ -DSTM32F10X_HD
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "main.c"
